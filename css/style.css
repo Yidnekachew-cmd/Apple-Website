@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+}
+
+.nav-container {
+  width: 74%;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(160, 153, 153);
+}
+
+.nav-links li img {
+  width: 18px;
+}
